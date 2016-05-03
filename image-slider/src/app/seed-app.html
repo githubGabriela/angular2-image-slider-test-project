@@ -2,32 +2,16 @@
   Angular 2 Seed
 </h3>
 <nav>
-	<a [routerLink]=" ['/Home'] ">
-    Home
+	<a [routerLink]=" ['/Uploader'] ">
+    Uploader
   </a>
   |
-	<a [routerLink]=" ['/About'] ">
-    About
-  </a>
-  |
-	<a [routerLink]=" ['/RepoBrowser/RepoList', {org: 'angular'}] ">
-    Github Repos
-  </a>
-
   <a [routerLink]=" ['/ImageSlider'] ">
     ImageSlider
   </a>
 
-  <a [routerLink]=" ['/ImagesUploader'] ">
-    ImagesUploader
-  </a>
 </nav>
 
 <main>
 	<router-outlet></router-outlet>
 </main>
-
-
-<footer>
-  © 2016
-</footer>
