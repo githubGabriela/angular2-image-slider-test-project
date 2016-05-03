@@ -5,6 +5,7 @@ import {Home} from './components/home/home';
 import {About} from './components/about/about';
 import {RepoBrowser} from './components/repo-browser/repo-browser';
 import {ImageSlider} from './components/image-slider/image-slider';
+import {ImagesUploader} from './components/images-uploader/images-uploader';
 
 @Component({
   selector: 'seed-app',
@@ -17,7 +18,8 @@ import {ImageSlider} from './components/image-slider/image-slider';
   { path: '/home',       component: Home,        name: 'Home', useAsDefault: true },
   { path: '/about',      component: About,       name: 'About' },
   { path: '/github/...', component: RepoBrowser, name: 'RepoBrowser' },
-  { path: '/slider', component: ImageSlider, name: 'ImageSlider' }
+  { path: '/slider', component: ImageSlider, name: 'ImageSlider' },
+  { path: '/upload', component: ImagesUploader, name: 'ImagesUploader' }
   ])
 export class SeedApp {
 
