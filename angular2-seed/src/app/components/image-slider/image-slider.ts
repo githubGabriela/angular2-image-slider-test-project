@@ -9,7 +9,8 @@ selector: 'image-slider',
 templateUrl : 'app/components/image-slider/image-slider.html',
 styleUrls : ['app/components/image-slider/image-slider.css'],
 providers : [],
-directives : [CAROUSEL_DIRECTIVES, CORE_DIRECTIVES, FORM_DIRECTIVES]
+directives : [CAROUSEL_DIRECTIVES, CORE_DIRECTIVES, FORM_DIRECTIVES],
+pipes : []
 })
 
 export class ImageSlider {
